@@ -1,0 +1,39 @@
+.containerBlock {
+  padding: 10px;
+  text-align: center;
+  .searchBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    select {
+      width: 15.6%;
+      margin-right: 18px;
+      background-color: rgb(220, 218, 218);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .mainBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .elemInfo {
+      padding: 10px;
+      width: 200px;
+      max-width: 100%;
+      cursor: pointer;
+      figure {
+        display: flex;
+        flex-direction: column;
+        img {
+          height: 100px;
+          background-color: green;
+        }
+      }
+    }
+  }
+}
